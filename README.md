@@ -1,4 +1,4 @@
-# twitterclone
+# Vue TodoList
 
 ## Project setup
 ```
