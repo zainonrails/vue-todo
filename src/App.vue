@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <img width="250" class="img-fluid " alt="Vue logo" src="./assets/todologo.png">
+  </div>
+  <ListContainer/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ListContainer from './components/ListContainer';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ListContainer
   }
 }
 </script>
